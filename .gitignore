@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# --- lunch finder ---
+.DS_Store
+data/raw/photos/
+*.zip
