@@ -63,10 +63,10 @@ d = d.drop_duplicates('url').copy()
 n = d['product'].str.lower()
 
 # 2) keyword rules: words we never want (EXCL) and words that decide the product_type (first match wins)
-EXCL = r"eisbecher|rieg\b|shots|healthy fit|sprossen|codegotto|crispy|paniert|sticks|blévita|risotto|börek|crème fraîche|creme fraiche|caffè|caffe|pringles|tomatenmark|tomatenstück|polpa|streich|fideli|gnocchi|knopf|suppe|eintopf|topf\b|waffel|kontaktlinse|linsenlö|quetschbeutel|porridge|oliven|pesto|antipasti|passiert|gehackt|geschält|pelati|sugo|fixe|hörnli|berliner|globi|aktifit|schoggi|croissant|gipfeli|gefüllt|fleischkäse|backbeutel|tar\b|tartar|getrocknet|eingelegt|geröstet|gewürzmischung|gewürzsalz|mc cormick|mccormick|salsa|pet\b|uht|le gusto|wonnemeyer|konserve|püree|chili con|aufbackbrötchen mit|kaffee|espresso|kakao|chips|schoko|choceur|tafel|kuchen|cake|brei|hipp|pizza|sauce|sosse|dressing|ketchup|saft|nektar|smoothie|drink|shake|riegel|bar\b|müesli|muesli|loops|glace|eis\b|hund|katze|tier|kollagen|whey|pulver|shampoo|duschgel|creme|lotion|aufstrich|crackers|cracker|snack|nuggets im teig|tiramisu|dessert|likör|nudeln|teigwaren|tagliatelle|spätzli|pasta|lasagne|ravioli|tortellini|fertiggericht|bowl|sandwich|tramezzini|weggli lyoner|kartoffel|gratin|strudel|mus\b|chutney|konfitüre|gelee|tee\b|sirup|gummi|bonbon|kaugummi|candy|toaster|zahnpasta|deo|kerze|spiel|figur|puppe|ostern|weihnacht|samichlaus|adventskalender|wurst|salami|cervelat|speck|lyoner|mortadella|chorizo|baby|kind"
+EXCL = r"mayo|protein water|mineralwasser|daily|wrap thon|ofengemüse|red thai|in rotem curry|kichererbsencurry|im teig|balsamico|sablés|special k|peak punk|linsen mit gemüse|linsen burger|schnelle mischung|frischkäse|alternative zu lachs|flachbohnen|eisbecher|rieg\b|shots|healthy fit|sprossen|codegotto|crispy|paniert|sticks|blévita|risotto|börek|crème fraîche|creme fraiche|caffè|caffe|pringles|tomatenmark|tomatenstück|polpa|streich|fideli|gnocchi|knopf|suppe|eintopf|topf\b|waffel|kontaktlinse|linsenlö|quetschbeutel|porridge|oliven|pesto|antipasti|passiert|gehackt|geschält|pelati|sugo|fixe|hörnli|berliner|globi|aktifit|schoggi|croissant|gipfeli|gefüllt|fleischkäse|backbeutel|tar\b|tartar|getrocknet|eingelegt|geröstet|gewürzmischung|gewürzsalz|mc cormick|mccormick|salsa|pet\b|uht|le gusto|wonnemeyer|konserve|püree|chili con|aufbackbrötchen mit|kaffee|espresso|kakao|chips|schoko|choceur|tafel|kuchen|cake|brei|hipp|pizza|sauce|sosse|dressing|ketchup|saft|nektar|smoothie|drink|shake|riegel|bar\b|müesli|muesli|loops|glace|eis\b|hund|katze|tier|kollagen|whey|pulver|shampoo|duschgel|creme|lotion|aufstrich|crackers|cracker|snack|nuggets im teig|tiramisu|dessert|likör|nudeln|teigwaren|tagliatelle|spätzli|pasta|lasagne|ravioli|tortellini|fertiggericht|bowl|sandwich|tramezzini|weggli lyoner|kartoffel|gratin|strudel|mus\b|chutney|konfitüre|gelee|tee\b|sirup|gummi|bonbon|kaugummi|candy|toaster|zahnpasta|deo|kerze|spiel|figur|puppe|ostern|weihnacht|samichlaus|adventskalender|wurst|salami|cervelat|speck|lyoner|mortadella|chorizo|baby|kind"
 rules=[
  # protein bread / rolls / wraps are still bread -> must come before skyr and high_protein
- ('brot', r"(protein|skyr).*(brot|brötli|wrap)"),
+ ('brot', r"(protein|skyr).*(brot|brötli|brötchen|wrap)|(brot|brötchen).*protein"),
  ('poulet_aufschnitt', r"(poulet|huhn|hähnchen|chicken).*(aufschnitt|hauchdünn|geschnitten|scheiben|gekocht|geräuchert|smoky|curry|paprika|grill|delikatess)|(aufschnitt|hauchdünn).*(poulet|huhn)"),
  ('trutenbrust', r"trute|truthahn|turkey"),
  ('haehnchenbrust', r"pouletbrust|poulet brust|pouletfilet|poulet-filet|pouletschnitzel|poulet minutenschnitzel|poulet-minutenschnitzel|pouletbrust-|poulet geschnetzeltes|pouletgeschnetzeltes|pouletfilet-geschnetzeltes|poulet-geschnetzeltes|pouletwürfel|pouletbrustwürfel"),
@@ -187,12 +187,16 @@ d.loc[(d.ref_key=='huelsenfruechte')&(d.package_g<300),'ref_key']='huelsen_gekoc
 for i,c in enumerate(['kcal_100g','protein_100g','fat_100g','carbs_100g']):
     d[c]=d.ref_key.map(lambda k:REF[k][i])
 d['nutrition_source']='reference: '+d.ref_key.map(lambda k:REF[k][4])
-# overwrite with real product-page values (Migros/Coop pages we opened one by one on 25.11)
-pages = pd.read_csv('data/raw/product_pages_nutrition.csv').drop_duplicates('url').set_index('url')
+# overwrite with real product-page values (Migros/Coop pages we opened one by one on 25.11,
+# first only the top products, then all protein products)
+pages = pd.read_csv('data/raw/product_pages_nutrition.csv').drop_duplicates('url')
+pages = pages[pages.protein_100g.notna()].set_index('url')   # some pages show no protein -> keep the reference value
 m = d.url.isin(pages.index)
 for c in ['kcal_100g', 'protein_100g', 'fat_100g', 'carbs_100g']:
     d.loc[m, c] = d.loc[m, 'url'].map(pages[c])
 d.loc[m, 'nutrition_source'] = 'product_page'
+# real values show: 'Bohnen' with < 3 g protein are green beans (a vegetable), not pulses -> drop
+d = d[~((d.product_type == 'huelsenfruechte') & (d.protein_100g < 3))]
 # Lidl + Aldi don't show nutrition online -> real label values from Open Food Facts
 # we matched by name + brand by hand, match = exact or likely (see note column)
 off = pd.read_csv('data/raw/openfoodfacts_nutrition.csv').set_index('url')
