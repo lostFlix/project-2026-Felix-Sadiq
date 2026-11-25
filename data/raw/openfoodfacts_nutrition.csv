@@ -1,0 +1,10 @@
+url,off_code,off_name,kcal_100g,protein_100g,fat_100g,carbs_100g,match,note
+https://sortiment.lidl.ch/de/catalog/product/view/id/14867/s/magerquark-5106470/category/2/,4056489673521,Milbona Magerquark 500 g,68,11,0.5,4,exact,same brand + size
+https://sortiment.lidl.ch/de/catalog/product/view/id/20684/s/skyr-natur-0144376/category/2/,4056489021445,Milbona Skyr Icelandic Style Natural 500 g,62.4,11,0.2,4,exact,same brand + size
+https://sortiment.lidl.ch/de/catalog/product/view/id/15864/s/high-protein-mousse-0184078/category/2/,4056489724070,Lidl High Protein Mousse Schoko 175 g,86,10,2.2,5.8,exact,same size
+https://sortiment.lidl.ch/de/catalog/product/view/id/21932/s/skyr-natur-0-2-xxl-0215443/category/2/,4056489021445,Milbona Skyr Icelandic Style Natural 500 g,62.4,11,0.2,4,likely,same skyr but 1000 g pack
+https://sortiment.lidl.ch/de/catalog/product/view/id/14264/s/high-protein-fruchtquark-0150835/category/2/,4056489258360,Milbona High Protein Pfirsich-Orange 200 g,65,10,0.3,6,likely,flavour not shown on shop page
+https://sortiment.lidl.ch/de/catalog/product/view/id/14095/s/high-protein-joghurt-0150828/category/2/,4056489258346,Milbona High Protein Joghurt Heidelbeere 200 g,72,10,0.3,7.4,likely,flavour not shown on shop page
+https://www.aldi-suisse.ch/de/produkt/milsani-skyr-mit-fruechten-himbeere-000000000679580002,4061462615504,Milsani Skyr Erdbeere,75,9.3,0.1,8.6,likely,other flavour (only strawberry in OFF)
+https://www.aldi-suisse.ch/de/produkt/milsani-skyr-mit-fruechten-blaubeere-000000000679580003,4061462615504,Milsani Skyr Erdbeere,75,9.3,0.1,8.6,likely,other flavour (only strawberry in OFF)
+https://www.aldi-suisse.ch/de/produkt/milsani-skyr-mit-fruechten-passionsfrucht-000000000679580004,4061462615504,Milsani Skyr Erdbeere,75,9.3,0.1,8.6,likely,other flavour (only strawberry in OFF)
