@@ -1,0 +1,133 @@
+store,url,product,kcal_100g,protein_100g,fat_100g,carbs_100g,basis,date_collected
+migros,https://www.migros.ch/de/product/200803100000,M-Budget · Magerquark,63.0,9.7,0.0,5.7,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/205223900000,You · Skyr · Nature,61.0,12.0,0.0,2.9,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/200604100000,Migros · Cottage Cheese · Nature,87.0,10.0,4.0,2.7,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/210100124000,Emmentaler · Hartkäse AOP · mild,395.0,29.0,31.0,0.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/210123024000,Gruyère · Hartkäse AOP,405.0,27.0,33.0,0.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/212380124000,Da Emilio · Pamigiano Reggiano DOP,402.0,30.0,30.0,0.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/212665200000,M-Budget · Mozzarella,249.0,18.0,19.0,1.5,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/212580100000,M-Budget · Feta,301.0,16.0,26.0,0.7,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/205372800000,"Migros High Protein · Pudding · Vanille, laktosefrei",79.0,10.0,1.7,6.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/196025001000,Eier · 53+ Freilandhaltung,141.0,13.0,9.8,0.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/231525583602,M-Budget · Pouletbrust,100.0,19.0,2.3,0.7,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/155900200000,Migros · Thon · Wasser,108.0,26.0,0.0,0.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/130927400000,"M-Budget · Tofu · Bio, Nature, vegan",145.0,16.0,8.3,1.2,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/130916700000,"planted. · Nature · geschnetzelt, vegan",144.0,24.0,3.4,1.8,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/130921000000,Cornatur · Quorn Gehacktes · vegetarisch,104.0,16.0,1.7,2.6,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/210408000000,Migros High Protein · Käsescheiben,213.0,33.0,9.0,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6568630,Prix Garantie Magerquark (500g),62.0,11.0,0.2,4.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6622281,Skyr Natur (400g),58.0,11.0,0.0,3.5,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6877763,Prix Garantie Hüttenkäse Nature (250g),99.0,11.0,4.5,3.7,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/3080213,Emmentaler mild ca. 250g,395.0,29.0,31.0,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/3080221,Le Gruyère mild AOP ca. 250g,396.0,27.0,32.0,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6083756,Sapori d'Italia Parmigiano Reggiano DOP ca. 250g,398.0,32.0,30.0,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7235480,Prix Garantie Mozzarella (125g),244.0,19.0,18.0,1.5,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7518950,Mollini IP-Suisse Mozzarella -58%Fett (125g),152.0,20.0,7.5,1.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/5946400,Prix Garantie Feta (250g),266.0,17.0,22.0,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6856075,High Protein Pudding Choco (400g),84.0,11.0,1.6,5.9,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7510474,Freilandeier 53g+ 10 Stück,151.0,13.0,11.0,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7205944,Prix Garantie Pouletbrust ca. 500g,111.0,24.0,1.7,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7210452,Prix Garantie Thon rosé MSC nature (150g),85.0,19.0,1.0,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7543630,Prix Garantie Tofu nature (400g),116.0,13.0,6.1,1.5,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6570112,Planted vegane Alternative zu Poulet Natur (175g),144.0,24.0,3.4,1.8,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7497861,High Protein Halbhartkäse Scheiben (180g),213.0,33.0,9.0,0.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/105006100000,M-Classic · Linsen,356.0,23.0,1.1,53.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/210100224000,Emmentaler · Hartkäse · surchoix,395.0,29.0,31.0,0.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/200609600000,M-Budget · Mozzarella,244.0,19.0,18.0,1.5,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/210707200000,Migros High Protein High Protein · Schmelzkäse,186.0,27.0,7.0,3.8,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/155133700000,Migros · Rosa Thon · in Salzwasser,105.0,25.0,0.6,0.0,100 g abgetropft,2026-11-25
+migros,https://www.migros.ch/de/product/155900600000,Migros · Thon · Sonnenblumenöl,145.0,26.0,4.6,0.0,100 g abgetropft,2026-11-25
+migros,https://www.migros.ch/de/product/155133100000,Migros · Rosa Thunfisch · in Öl,167.0,26.0,7.0,0.0,100 g abgetropft,2026-11-25
+migros,https://www.migros.ch/de/product/155133500000,Migros · Rosa Thon · in Öl,167.0,26.0,7.0,0.0,100 g abgetropft,2026-11-25
+migros,https://www.migros.ch/de/product/200802000000,M-Classic · Magerquark,63.0,9.7,0.0,5.7,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/200838000000,Migros · Yogourt & Quark · Erdbeer,81.0,7.0,0.0,13.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/196510301800,"Eier · 53+, Import, Bodenhaltung",141.0,13.0,9.8,0.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/200803300000,"Magerquark · aha!, Nature, laktosefrei",56.0,9.8,0.0,4.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/200800100000,M-Classic · Yogourt & Quark · Nature,53.0,8.6,0.0,4.5,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/200802600000,Magerquark · Bio,61.0,11.0,0.0,4.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/205008000000,M-Budget · Joghurt · Nature,43.0,4.6,1.1,3.6,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/231011590000,Don Pollo · Pouletaufschnitt,204.0,14.0,16.0,0.9,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/196500501500,"M-Budget · Eier · 53+, Import, Bodenhaltung",141.0,13.0,9.8,0.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/212381000000,Da Emilio · Grana Padano DOP · gerieben,398.0,33.0,29.0,0.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/200604600000,Migros · Cottage Cheese,87.0,10.0,4.0,2.7,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/212594300000,M-Classic · Salatkäse,256.0,18.0,20.0,1.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/212587800000,Ömür Hirtenkäse · 55% Fett,1027.0,13.0,21.5,0.6,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/210705200000,Emmentaler · Schmelzkäse,291.0,21.0,23.0,0.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/205224600000,You · Skyr · Nature,61.0,12.0,0.0,2.9,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/212307526000,M-Budget · Grana Padano DOP,398.0,33.0,29.0,0.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/243996343000,Migros · Pouletschnitzel Crispy,194.0,12.0,6.8,21.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/130910000000,"Alnatura · Tofu · Bio, Nature, vegan",571.0,15.0,8.0,0.7,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/110115300000,Blévita · Gruyère AOP,460.0,16.0,16.0,60.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/196520001700,"M-Budget · Eier · 53+, Import, Freilandhaltung",141.0,13.0,9.8,0.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/210154924100,Emmentaler · Aus der Region,395.0,29.0,31.0,0.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/243122280000,Migros · Truten Brust,110.0,24.0,1.5,0.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/205077000000,M-Classic · Joghurt · Nature,62.0,3.7,3.5,4.1,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/210123026000,Gruyère · Hartkäse AOP · mild,405.0,27.0,33.0,0.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/231502083302,M-Budget · Hinterschinken,123.0,19.0,5.0,0.5,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/231500191210,Vorderschinken,129.0,18.0,5.8,1.2,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/203512400000,"Alpro · Skyr Alternative · Nature, ohne Zuckerzusatz, vegan",252.0,5.8,3.4,0.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/203513600000,Alpro · Skyr Alternative · Vanille,323.0,5.1,2.9,6.8,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/212588300000,Gazi · Hirtenkäse,1271.0,14.3,27.1,1.8,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/231526014000,Don Pollo · Pouletbrust · hauchdünn Curry,105.0,22.0,1.4,0.9,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/210119408500,"Emmentaler · Aus der Region, mild",395.0,29.0,31.0,0.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/130986200000,Alnatura · Seidentofu · Bio,198.0,5.3,2.1,1.8,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/231525186000,Don Pollo · Trutenbrust · gewürzt,104.0,21.0,2.0,0.5,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/200633300800,Cottage Cheese · Aus der Region,90.0,11.0,3.5,3.5,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/231525581400,Don Pollo · Pouletbrust · hauchdünn & mit Bratrand,94.0,18.0,1.6,1.9,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/231500189602,M-Budget · Vorderschinkenwürfel,148.0,18.0,8.0,1.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/231525083100,Don Pollo · Trutenbrust · hauchdünn,95.0,21.0,1.0,0.5,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/130936100000,"Tofu · Bio, nature, vegan",131.0,15.0,6.9,2.1,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/130931300000,"Alnatura · Räuchertofu · Bio, vegan",806.0,21.0,11.0,1.3,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/251305600000,"Migros · Zuchtlachs Atlantik · geräuchert, vorgeschnitten",166.0,21.0,9.0,0.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/251360400000,Migros · Rauchlachs-Anschnitte · geräuchert,167.0,25.0,7.0,1.0,100 g,2026-11-25
+migros,https://www.migros.ch/de/product/251366100100,"Migros · Lachsforelle · geräuchert, geschnitten",193.0,19.0,13.0,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7372156,Natura rote Linsen (1000g),336.0,23.5,1.4,52.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6151935,Linsen grün (500g),324.0,24.0,1.5,45.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6110429,Linsen braun (500g),324.0,24.0,1.5,45.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6110189,Linsen rot (500g),334.0,27.0,1.5,48.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7497041,Prix Garantie Mini-Fruchtquark 12x60g (720g),90.0,5.4,2.3,12.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6876548,Prix Garantie Mozzarella Stange (400g),244.0,19.0,18.0,1.5,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7561012,High Protein Schmelzkäsescheiben (180g),186.0,27.0,7.0,3.8,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/3661250,Prix Garantie Mozzarella 4x125g (500g),244.0,19.0,18.0,1.5,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7401646,Prix Garantie MSC Thon rosé Sonnenblumenöl (140g),167.0,26.0,7.0,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6979595,Magerquark Nature IP-Suisse (250g),65.0,11.0,0.5,4.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7449157,High Protein Double Zero Vanille (500ml),57.0,8.0,1.5,2.8,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7563816,High Protein Double Zero Choco-Cocos (500ml),66.0,8.0,2.4,3.1,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7449160,High Protein Double Zero Banana-Choco (500ml),61.0,8.0,1.6,3.7,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6548119,Prix Garantie Mozzarella Mini (160g),243.0,21.0,17.0,1.5,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/4137336,Naturaplan Bio Magerquark Nature (500g),58.0,9.9,0.2,4.2,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7341117,Prix Garantie Jogurt Nature 1.5% (500g),50.0,5.5,1.5,3.6,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7341175,Prix Garantie Poulet Aufschnitt (200g),251.0,12.0,22.0,1.3,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6407679,Prix Garantie Hüttenkäse Nature (750g),99.0,11.0,4.5,3.7,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6803514,Prix Garantie vegane Alternative zu Hack (275g),172.0,15.0,8.4,7.1,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6859595,Prix Garantie Eier Bodenhaltung 53g+ 15 Stück,151.0,13.0,11.0,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6536814,Prix Garantie Mozzarella Sticks (250g),297.0,11.0,14.0,31.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/3081221,Emmentaler Schmelzkäse 10 Scheiben (200g),291.0,21.0,23.0,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/4214661,Früchtequark Erdbeer 2x125g (250g),103.0,7.0,2.6,13.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/5671754,Fairtrade Früchtequark Banane 2x125g (250g),104.0,7.1,2.6,13.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7478550,Prix Garantie Pouletbrust ca. 700g,99.0,22.0,1.2,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7533580,Prix Garantie Poulet Geschnetzeltes ca. 700g,111.0,24.0,1.7,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/3080311,Le Gruyère Schmelzkäse 10 Scheiben (200g),291.0,21.0,23.0,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7166267,Prix Garantie Grana Padano gerieben (200g),393.0,33.0,29.0,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/3033173,Knorr Risotto Parmesan (250g),168.0,4.0,5.5,25.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7113939,Prix Garantie Eier Bodenhaltung 10 Stück,151.0,13.0,11.0,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6790683,Prix Garantie Poulet Geschnetzeltes ca. 450g,111.0,24.0,1.7,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7341118,Prix Garantie Jogurt Nature 3.5% (500g),64.0,4.3,3.5,3.7,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7341692,Prix Garantie Jogurt Nature 2x200g,63.0,3.7,3.5,4.1,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7220181,Prix Garantie Hinterschinken (200g),114.0,22.0,2.9,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/4122666,Bergkäse Reibkäsemischung mit Gruyère (250g),408.0,30.0,32.0,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6538261,alpro Skyr ohne Zucker (400g),61.0,5.8,3.3,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6370431,alpro Skyr Vanille Geschmack (400g),77.0,5.1,3.0,6.8,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6390716,Hirz Hüttenkäse Nature (700g),95.0,10.9,4.0,3.7,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7493479,Prix Garantie Trutenbrust ca. 100g,98.0,20.0,1.1,1.9,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6637847,Mini Börek Spinat & Feta (450g),262.0,5.9,14.0,27.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/3081209,Hirz Hüttenkäse Nature (450g),95.0,10.9,4.0,4.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7602893,Naturafarm Vorderschinken (150g),112.0,19.0,3.6,0.8,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7206241,Betty Bossi Plant Kitchen vegane Alternative zu Nuggets (225g),213.0,15.0,8.7,16.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/5779932,Karma Bio Tofu Nature (500g),107.0,13.0,5.7,0.9,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6798827,New Roots vegane Alternative zu Crème Fraîche (180g),190.0,3.4,18.0,2.8,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7300885,Gazi Bio Feta (135g),280.0,16.5,23.0,1.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7206099,Betty Bossi Plant Kitchen vegane Alternative zu Schnitzel Pfeffer & Zitrone (220g),182.0,10.0,6.9,18.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/7379747,Prix Garantie ASC Rauchlachs (200g),197.0,20.0,13.0,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/6876513,Prix Garantie Lachsfilet ASC mit Haut 2x140g (280g),200.0,20.0,13.0,0.0,100 g,2026-11-25
+coop,https://www.coop.ch/de/p/5843879,Trutenbrust Schnitzel 2 Stück ca. 270g,103.0,24.0,0.8,0.0,100 g,2026-11-25
