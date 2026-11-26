@@ -165,6 +165,8 @@ d=d[~d['product'].str.contains(r"lip balm|l'oréal|laque|nyx|regionaler preis",c
 d=d[~((d.product_type!='salat')&d['product'].str.contains(r'salat(?!käse)',case=False,regex=True)&(d.product_type!='feta'))]
 # green beans are vegetables, not pulses
 d=d[~((d.product_type=='huelsenfruechte')&d['product'].str.contains(r'grüne|grün\b|fein|bohnen grün|brech',case=False,regex=True)&~d['product'].str.contains('linsen',case=False))]
+# 3 bad matches found in Q1: rösti toast is a frozen ready meal, "ganze bohnen" is coffee, baked beans are in sauce -> drop
+d=d[~d['product'].str.contains(r'rösti toast|ganze bohnen|gebackene bohnen',case=False,regex=True)]
 # small seasoned chicken-breast packs (<=200 g) are cold cuts
 sm=(d.product_type=='haehnchenbrust')&(d.package_g<=200)&d['product'].str.contains(r'gewürzt|pfeffer|hauchdünn|gekocht',case=False,regex=True)&~d['product'].str.contains(r'stück|spiess',case=False,regex=True)
 d.loc[sm,'product_type']='poulet_aufschnitt'
